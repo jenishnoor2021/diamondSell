@@ -77,6 +77,8 @@
                            <option value="Heart" {{ $diamond->shape == 'Heart' ? 'selected' : '' }}>Heart</option>
                            <option value="EM" {{ $diamond->shape == 'EM' ? 'selected' : '' }}>EM</option>
                            <option value="Cushion" {{ $diamond->shape == 'Cushion' ? 'selected' : '' }}>Cushion</option>
+                           <option value="Marcus" {{ $diamond->shape == 'Marcus' ? 'selected' : '' }}>Marcus</option>
+                           <option value="Other" {{ $diamond->shape == 'Other' ? 'selected' : '' }}>Other</option>
                         </select>
                         @if($errors->has('shape'))
                         <div class="error text-danger">{{ $errors->first('shape') }}</div>

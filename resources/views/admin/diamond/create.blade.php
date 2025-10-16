@@ -78,6 +78,8 @@
                            <option value="Heart">Heart</option>
                            <option value="EM">EM</option>
                            <option value="Cushion">Cushion</option>
+                           <option value="Marcus">Marcus</option>
+                           <option value="Other">Other</option>
                         </select>
                         @if($errors->has('shape'))
                         <div class="error text-danger">{{ $errors->first('shape') }}</div>
